@@ -1,0 +1,34 @@
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar-brand img {
+      height: 65px;
+    }
+    .hero {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+    .services .card {
+      transition: transform 0.3s ease;
+    }
+    .services .card:hover {
+      transform: translateY(-8px);
+    }
+    footer {
+      background: #212529;
+      color: white;
+      padding: 20px 0;
+    }
